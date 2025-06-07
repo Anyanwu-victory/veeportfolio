@@ -30,13 +30,11 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 const menuItems = [
   { title: "HOME", icon: Home, href: "#home" },
-  { title: "SERVICES", icon: Briefcase, href: "#services" },
+  { title: "ABOUT", icon: Briefcase, href: "#about" },
   { title: "SKILLS", icon: User, href: "#skills" },
   { title: "WORKS", icon: FolderOpen, href: "#portfolio" },
   { title: "RESUME", icon: FileText, href: "#resume" },
-  { title: "TESTIMONIALS", icon: MessageSquare, href: "#testimonials" },
-  { title: "PRICING", icon: DollarSign, href: "#pricing" },
-  { title: "BLOG", icon: BookOpen, href: "#blog" },
+  // { title: "BLOG", icon: BookOpen, href: "#blog" },
   { title: "CONTACT", icon: Mail, href: "#contact" },
 ]
 
@@ -73,7 +71,7 @@ export function AppSidebar() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">L</span>
             </div>
-            <span className="font-bold text-lg">LUIQUE</span>
+            <span className="font-bold text-lg">Victory</span>
           </div>
         </SidebarHeader>
 

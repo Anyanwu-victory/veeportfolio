@@ -10,9 +10,17 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Victory Anyanwu - Web Developer Portfolio",
-  description: "Professional web developer portfolio showcasing modern web development skills and projects.",
-    generator: 'v0.dev'
+  title: "Hi,I'm Victory - software engineer, programmer, daydreamer.",
+  description: "I am a software engineer specialized in Web Development",
+  keywords: [
+    "Web Developer",
+    "Software Engineer",
+    "Frontend Developer",
+    "React Developer",
+    "Next.js Developer",
+    "JavaScript Developer",
+    "Typescript Developer",
+  ],
 }
 
 export default function RootLayout({
