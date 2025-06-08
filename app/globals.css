@@ -89,7 +89,8 @@
   }
 
   .primary {
-    background-color: hsl(160, 84%, 39%);
+    background-color: #10b77f;
+    color: #020817;
   } 
 
   .gradient-text {
@@ -112,7 +113,7 @@
 
 
 .section-padding {
-  @apply py-20 px-4 md:px-8 lg:px-16 ;
+  @apply py-20 px-4 md:px-8 lg:px-20 ;
 }
 
 .container-custom {
@@ -130,15 +131,15 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-muted;
+  @apply bg-[#f8fafc];
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary rounded-full;
+  @apply bg-[#10b77f] rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-primary/80;
+  @apply bg-[#10b77f]/80;
 }
 
 @theme inline {
@@ -255,7 +256,7 @@ html {
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-[#020817] outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;

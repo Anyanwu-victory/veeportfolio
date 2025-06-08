@@ -7,47 +7,47 @@ import { Calendar, MapPin } from "lucide-react"
 
 const education = [
   {
-    degree: "Master of Computer Science",
-    school: "University of Technology",
-    period: "2018 - 2020",
-    location: "Paris, France",
+    degree: "Bachelor of Software Engineering",
+    school: "Mewar International University Nigeria ",
+    period: "2021 - 2025",
+    location: "Abuja, Nigeria",
     description:
-      "Specialized in web development and software engineering with focus on modern frameworks and technologies.",
+      "Comprehensive study of software Engineering fundamentals, programming languages, and database management with focus on modern frameworks and technologies.",
   },
   {
-    degree: "Bachelor of Information Technology",
-    school: "Digital Arts Institute",
-    period: "2014 - 2018",
-    location: "Lyon, France",
+    degree: "Senior Secondary School Certificate (WASSCE)",
+    school: "Senior Secondary School,Nyanya Nigeria",
+    period: "2018 - 2021",
+    location: "Abuja, Nigeria",
     description:
-      "Comprehensive study of computer science fundamentals, programming languages, and database management.",
+      "Comprehensive study of sciences fundamentals, and computing science.",
   },
 ]
 
 const experience = [
   {
-    position: "Senior Web Developer",
-    company: "Tech Solutions Inc.",
-    period: "2020 - Present",
-    location: "Paris, France",
+    position: "Frontend Developer Intern",
+    company: "Nigerian Communications Commission",
+    period: "Jan 2024 - July 2024",
+    location: "Abuja, Nigeria",
     description:
-      "Lead development of complex web applications using React, Node.js, and cloud technologies. Mentor junior developers and collaborate with design teams.",
+      "Developed and maintained web applications using React and Next.js. Collaborated with cross-functional teams to deliver high-quality software solutions. Participated in code reviews and contributed to team knowledge sharing.",
   },
   {
-    position: "Full Stack Developer",
-    company: "Creative Agency",
-    period: "2018 - 2020",
-    location: "Paris, France",
+    position: "Business Analyst",
+    company: "Appbrew",
+    period: "Jan 2024 - Aug 2024",
+    location: "Abuja, Nigeria",
     description:
-      "Developed responsive websites and web applications for various clients. Worked with WordPress, PHP, and modern JavaScript frameworks.",
+      "Analyzed business requirements and translated them into technical specifications. Collaborated with stakeholders to identify opportunities for process improvement.",
   },
   {
     position: "Frontend Developer",
-    company: "Startup Hub",
-    period: "2016 - 2018",
-    location: "Lyon, France",
+    company: "Appbrew",
+    period: "2024 - 2025",
+    location: "Abuja, Nigeria",
     description:
-      "Built user interfaces for web applications using HTML, CSS, JavaScript, and React. Collaborated closely with UX/UI designers.",
+      "Built user interfaces for web applications using Sanity, TailwindCSS, TypeScript, and React. Collaborated closely with UX/UI designers.",
   },
 ]
 
@@ -63,7 +63,7 @@ export function ResumeSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">RESUME</h2>
-          <p className="text-muted-foreground text-lg">My Story</p>
+          <p className="text-color-muted-foreground text-lg">My Story</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -85,10 +85,10 @@ export function ResumeSection() {
                   viewport={{ once: true }}
                 >
                   <Card className="relative">
-                    <div className="absolute left-0 top-6 w-1 h-16 bg-primary rounded-full" />
+                    <div className="absolute left-0 top-6 w-1 h-16 bg-[#10b77f] rounded-full" />
                     <CardContent className="pl-8 py-6">
                       <div className="flex items-center gap-2 mb-2">
-                        <Calendar className="w-4 h-4 text-primary" />
+                        <Calendar className="w-4 h-4 text-[#10b77f]" />
                         <Badge variant="secondary">{item.period}</Badge>
                       </div>
                       <h4 className="text-xl font-semibold mb-1">{item.degree}</h4>
@@ -124,10 +124,10 @@ export function ResumeSection() {
                   viewport={{ once: true }}
                 >
                   <Card className="relative">
-                    <div className="absolute left-0 top-6 w-1 h-16 bg-primary rounded-full" />
+                    <div className="absolute left-0 top-6 w-1 h-16 bg-[#10b77f] rounded-full" />
                     <CardContent className="pl-8 py-6">
                       <div className="flex items-center gap-2 mb-2">
-                        <Calendar className="w-4 h-4 text-primary" />
+                        <Calendar className="w-4 h-4 text-[#10b77f]" />
                         <Badge variant="secondary">{item.period}</Badge>
                       </div>
                       <h4 className="text-xl font-semibold mb-1">{item.position}</h4>

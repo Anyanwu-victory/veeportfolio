@@ -8,79 +8,68 @@ import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
 
-const categories = ["All", "Web Design", "Mobile App", "Branding", "UI/UX"]
 
 const projects = [
   {
     id: 1,
-    title: "Modern E-commerce",
-    category: "Web Design",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "A modern e-commerce platform built with React and Node.js",
-    technologies: ["React", "Node.js", "MongoDB"],
+    title: "Agent Dashboard - content management system",
+    image: "/Agent-dashboard.png",
+    description: "A modern Agent Management Website for Corporate Affairs Commission(CAC).",
+    technologies: ["React", "Node.js", "HTML", "TailwindCSS"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Anyanwu-victory/agent-dashboard",
   },
   {
     id: 2,
-    title: "Mobile Banking App",
-    category: "Mobile App",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Secure mobile banking application with biometric authentication",
-    technologies: ["React Native", "Firebase", "TypeScript"],
+    title: "Sunny Blog.dev",
+    image: "/SunnyBlog.png",
+    description: "During the final four months at NCC, I dedicated my time to honing my web development skills through building my Blog.The Blog enables users to create blog content, read blog content.",
+    technologies: ["React ", "Sanity", "JavaScript", "TailwindCSS"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Anyanwu-victory/sunny-blog",
   },
   {
     id: 3,
-    title: "Brand Identity Design",
-    category: "Branding",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Complete brand identity design for a tech startup",
-    technologies: ["Figma", "Illustrator", "Photoshop"],
+    title: "Space Tourism Exploration Website",
+    image: "/spaceTourism.png",
+    description: "Complete Website for frontend mentor challenge",
+    technologies: ["React", "Javascript", "TailwindCSS"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Anyanwu-victory/space-tourism-website",
   },
   {
     id: 4,
-    title: "Dashboard UI Kit",
-    category: "UI/UX",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Comprehensive dashboard UI kit with 50+ components",
-    technologies: ["Figma", "React", "Tailwind CSS"],
+    title: "AutoConsult",
+    image: "/Autoconsult.png",
+    description: "Collaorated with a team of developers to develop a website for AutoConsult car rentals",
+    technologies: ["Typescript", "Next.js", "Tailwind CSS"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Anyanwu-victory?tab=repositories",
   },
   {
     id: 5,
-    title: "Portfolio Website",
-    category: "Web Design",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Creative portfolio website for a photographer",
-    technologies: ["Next.js", "Framer Motion", "Sanity"],
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "Sunnyside Website",
+    image: "/active-states.jpg",
+    description: "Creative frontend mentor challenge project",
+    technologies: ["TailwindCSS", "React", "JavaScript"],
+    liveUrl: "sunnyside-fawn-one.vercel.app",
+    githubUrl: "https://github.com/Anyanwu-victory/Sunnyside-Webpage",
   },
   {
     id: 6,
-    title: "Food Delivery App",
-    category: "Mobile App",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Food delivery app with real-time tracking",
-    technologies: ["Flutter", "Firebase", "Google Maps"],
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "SIWESTrack",
+    image: "/homepage.png",
+    description: "A website for SIWES students to track their industrial training progress and submit reports.",
+    technologies: ["Typescript", "Sanity CMS", "TailwindCSS", "Next.js"],
+    liveUrl: "siwestrack.vercel.app",
+    githubUrl: "https://github.com/Anyanwu-victory/Modern-Elogbook",
   },
 ]
 
 export function PortfolioSection() {
-  const [activeCategory, setActiveCategory] = useState("All")
-
-  const filteredProjects =
-    activeCategory === "All" ? projects : projects.filter((project) => project.category === activeCategory)
 
   return (
-    <section id="portfolio" className="section-padding bg-muted/30">
+    <section id="portfolio" className="section-padding bg-[#f8fafc]/30">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -90,34 +79,20 @@ export function PortfolioSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">PORTFOLIO</h2>
-          <p className="text-muted-foreground text-lg mb-8">My Works</p>
-
-          {/* Filter Buttons */}
-          <div className="flex flex-wrap justify-center gap-4">
-            {categories.map((category) => (
-              <Button
-                key={category}
-                variant={activeCategory === category ? "default" : "outline"}
-                onClick={() => setActiveCategory(category)}
-                className="transition-all duration-300"
-              >
-                {category}
-              </Button>
-            ))}
-          </div>
+          <p className="text-muted-foreground text-lg mb-8">My Works</p>         
         </motion.div>
 
         {/* Projects Grid */}
         <AnimatePresence mode="wait">
+
           <motion.div
-            key={activeCategory}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.5 }}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            {filteredProjects.map((project, index) => (
+            {projects.map((project, index) => (
               <motion.div
                 key={project.id}
                 initial={{ opacity: 0, y: 50 }}
@@ -125,7 +100,7 @@ export function PortfolioSection() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="group"
               >
-                <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 group-hover:-translate-y-2">
+                <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 group-hover:-translate-y-2 h-full">
                   <div className="relative overflow-hidden">
                     <Image
                       src={project.image || "/placeholder.svg"}
@@ -148,9 +123,6 @@ export function PortfolioSection() {
                     </div>
                   </div>
                   <CardContent className="p-6">
-                    <Badge variant="secondary" className="mb-3">
-                      {project.category}
-                    </Badge>
                     <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                     <p className="text-muted-foreground mb-4">{project.description}</p>
                     <div className="flex flex-wrap gap-2">
@@ -175,7 +147,9 @@ export function PortfolioSection() {
           className="text-center mt-12"
         >
           <Button size="lg" variant="outline">
-            VIEW ALL
+            <a href="https://github.com/Anyanwu-victory?tab=repositories">
+            VIEW ALL  
+             </a>
           </Button>
         </motion.div>
       </div>
