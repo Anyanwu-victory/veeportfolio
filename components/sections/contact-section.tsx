@@ -2,7 +2,6 @@
 
 import type React from "react"
 import { useEffect } from "react"
-import { useState } from "react"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
