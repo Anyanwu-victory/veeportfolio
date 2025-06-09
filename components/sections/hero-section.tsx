@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Download, ArrowRight, Twitter, Dribbble, Github } from "lucide-react";
+import {Twitter, Dribbble, Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -151,9 +151,9 @@ export function HeroSection() {
                 >
                   <Button
                     size="lg"
-                    className="bg-transparent rounded-2xl px-[40px] py-[20px] text-black shadow-lg 
-                    border-[1px] border-[#000000] hover:bg-[#10b77f] dark:border-white 
-                    dark:text-white"
+                    className="bg-[#10b77f] rounded-2xl px-[40px] py-[20px] text-black shadow-lg 
+                    border-[1px] border-[#000000] hover:bg-transparent dark:border-white 
+                    dark:text-white cursor-pointer"
                   >
                     DOWNLOAD CV
                   </Button>
@@ -162,9 +162,14 @@ export function HeroSection() {
               <Button
                 variant="outline"
                 size="lg"
-                className=" font-italize text-shadow-color-border px-[40px] py-[20px] rounded-2xl "
+                className=" font-italize cursor-pointer text-shadow-color-border px-[40px] py-[20px] rounded-2xl "
               >
+                <a 
+                href="#skills"
+                target="_blank"
+                >
                 MY SKILLS
+                </a>
                 {/* <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" /> */}
               </Button>
             </motion.div>

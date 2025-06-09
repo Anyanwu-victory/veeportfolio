@@ -1,11 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Download, ArrowRight, Twitter, Dribbble, Github } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 
 export function AboutSection() {
   return (

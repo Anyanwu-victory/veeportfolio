@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -32,7 +31,7 @@ const projects = [
     id: 3,
     title: "Space Tourism Exploration Website",
     image: "/spaceTourism.png",
-    description: "Complete Website for frontend mentor challenge",
+    description: "A Website for frontend mentor challenge project to master my frontend skills",
     technologies: ["React", "Javascript", "TailwindCSS"],
     liveUrl: "#",
     githubUrl: "https://github.com/Anyanwu-victory/space-tourism-website",
@@ -50,7 +49,7 @@ const projects = [
     id: 5,
     title: "Sunnyside Website",
     image: "/active-states.jpg",
-    description: "Creative frontend mentor challenge project",
+    description: "Creative frontend mentor challenge project to master my frontend skills",
     technologies: ["TailwindCSS", "React", "JavaScript"],
     liveUrl: "sunnyside-fawn-one.vercel.app",
     githubUrl: "https://github.com/Anyanwu-victory/Sunnyside-Webpage",
