@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -29,8 +30,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="min-h-screen
-     relative overflow-hidden bg-background "
+      className="min-h-screen relative overflow-hidden bg-background w-screen"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 dot-pattern opacity-50 max-w-full w-screen" />
@@ -181,24 +181,25 @@ export function HeroSection() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="relative flex justify-center  lg:justify-end py-20 px-4 md:px-8 lg:px-20"
+            className="relative flex justify-center  
+            items-center py-12 lg:justify-end lg:py-20 px-4 md:px-8 lg:px-20"
           >
-            <div className="relative">
+            <div className="relative  flex justify-center items-center">
               {/* Background Circle */}
-              <div className="absolute inset-0  scale-110 " />
+              <div className="absolute inset-0 scale-110 " />
 
               {/* Main Profile Container */}
               <div
-                className="relative w-80 h-80 border-4 border-background rounded-full lg:w-[30rem] 
-              lg:h-[30rem] hover:border-[#10b77f]"
+                className="relative w-72 h-72 sm:w-80 sm:h-80 border-4 border-background
+                 rounded-full lg:w-[30rem] flex justify-center items-center lg:h-[30rem] hover:border-[#10b77f]"
               >
                 {/* Green Background Shape */}
-                <div className="absolute inset-0  translate-x-8 translate-y-8" />
+                <div className="absolute inset-0 translate-x-8 translate-y-8" />
 
                 {/* Profile Image */}
                 <div
                   className="relative w-full h-full rounded-full
-                 top-1 overflow-hiden  shadow-2xl"
+                 top-1 overflow-hidden  shadow-2xl"
                 >
                   <Image
                     src="/dark-skinned-lady-hero.png"

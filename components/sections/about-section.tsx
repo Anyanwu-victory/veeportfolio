@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export function AboutSection() {
   return (
-    <section id="about" className="section-padding">
-      <div className="container-custom">
+    <section id="about" className="section-padding ">
+      <div className="container-custom w-full">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ export function AboutSection() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="relative flex justify-center lg:justify-start w-full lg:w-1/2"
+            className="relative  lg:justify-start w-full lg:w-1/2"
           >
             <div className="relative">
               {/* Background Circle */}
@@ -58,12 +58,12 @@ export function AboutSection() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/2 text-center lg:text-left"
+            className="w-full lg:w-1/2 text-center  lg:text-left"
           >
-            <h2 className="text-3xl font-medium text-primary mb-4">
+            <h2 className=" text-2xl lg:text-3xl font-medium text-primary mb-4">
               Software Engineer, Programmer and day dreamer
             </h2>
-            <p className="text-lg leading-relaxed text-muted-foreground">
+            <p className="text-sm  lg:text-lg leading-relaxed text-muted-foreground">
               Programming is both my profession and my hobby, which is why I
               truly enjoy my work as a developer. With over 3 years of
               experience, I have the skills to tackle a wide range of

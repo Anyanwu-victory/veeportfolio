@@ -33,9 +33,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <SidebarProvider defaultOpen={false}>
-            <div className="flex min-h-screen">
+            <div className="flex min-h-screen w-screen">
               <AppSidebar />
-              <main className="flex-1 overflow-hidden">{children}</main>
+              <main className="flex-1 overflow-hidden ">
+                {children}
+              </main>
             </div>
             <Toaster />
           </SidebarProvider>

@@ -38,7 +38,7 @@ const contactInfo = [
 
 export function ContactSection() {
   const { toast } = useToast()
-  const [formState, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM || "")
+  const [formState, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM || "mldnjplk")
 
   useEffect(() => {
     if (formState.succeeded) {
