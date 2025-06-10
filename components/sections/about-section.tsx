@@ -6,7 +6,7 @@ import Image from "next/image";
 export function AboutSection() {
   return (
     <section id="about" className="section-padding ">
-      <div className="container-custom w-full">
+      <div className="container-custom ">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +31,8 @@ export function AboutSection() {
           >
             <div className="relative">
               {/* Background Circle */}
-              <div className="absolute inset-0 bg-[#10b77f]/20 rounded-full blur-3xl scale-110" />
+              <div className="absolute inset-0 bg-[#10b77f]/20 rounded-full 
+              blur-3xl scale-110" />
 
               {/* Main Profile Container */}
               <div className="relative w-80 h-80 lg:w-[30rem] lg:h-[30rem]">

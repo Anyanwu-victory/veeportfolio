@@ -144,9 +144,8 @@ export function HeroSection() {
             >
               
                 <a
-                  href="/Anyanwu-Victory-CV.pdf"
-                  target="_blank"
-                  download="Anyanwu-Victory-CV.pdf"
+                  href="/victory_anyanwu_resume.pdf"
+                  download="victory_anyanwu_resume.pdf"
                   className="flex items-center gap-2"
                 >
                   <Button

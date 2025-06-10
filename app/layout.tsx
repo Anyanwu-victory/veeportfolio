@@ -35,7 +35,7 @@ export default function RootLayout({
           <SidebarProvider defaultOpen={false}>
             <div className="flex min-h-screen w-screen">
               <AppSidebar />
-              <main className="flex-1 overflow-hidden ">
+              <main className="flex-1 overflow-hidden">
                 {children}
               </main>
             </div>

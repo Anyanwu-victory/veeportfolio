@@ -7,7 +7,7 @@ import { ContactSection } from "@/components/sections/contact-section"
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <HeroSection />
       <AboutSection />
       <SkillsSection />
