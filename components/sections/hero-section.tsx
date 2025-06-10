@@ -109,9 +109,10 @@ export function HeroSection() {
                 size="icon"
                 className="hover:text-[#10b77f]"
               >
-                <Link href="">
+                
+                <a href=""></a>
                   <Twitter className="w-5 h-5" />
-                </Link>
+            
               </Button>
 
               <Button
@@ -175,7 +176,7 @@ export function HeroSection() {
 
           </motion.div>
 
-          {/* Right Content - Profile Image */}
+          {/* left Content - Profile Image */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}

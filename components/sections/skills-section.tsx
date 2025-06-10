@@ -68,7 +68,8 @@ export function SkillsSection() {
           ))}
         </div>
 
-        <div className="mt-12 grid grid-cols-4 gap-4 lg:flex text-center space-x-4  max-w-4xl mx-auto ">
+        <div className="mt-12 grid grid-cols-4 lg:grid-cols-9 gap-4 justify-center items-center text-center
+         space-x-4  max-w-4xl mx-auto ">
           {badges.map((badge, index) => (
             <motion.div
               key={badge.name}
