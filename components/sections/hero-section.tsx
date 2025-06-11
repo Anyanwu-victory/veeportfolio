@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {Twitter, Dribbble, Github } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+
 
 export function HeroSection() {
   const [projectCount, setProjectCount] = useState(0);
@@ -30,7 +30,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="min-h-screen relative overflow-hidden bg-background w-screen"
+      className="min-h-screen relative overflow-hidden bg-background "
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 dot-pattern opacity-50 max-w-full w-screen" />
@@ -70,7 +70,7 @@ export function HeroSection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-                className="text-4xl md:text-7xl lg:text-8xl font-poppins font-bold leading-none"
+                className="text-5xl md:text-7xl lg:text-8xl font-poppins font-bold leading-none"
               >
                 <span className="text-foreground  uppercase">victory</span>
                 {/* <span className="text-foreground uppercase">Anyanwu</span> */}
@@ -80,7 +80,7 @@ export function HeroSection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
-                className="text-2xl md:text-3xl font-light"
+                className="text-2xl md:text-3xl font-light font-montserrat  "
               >
                 I AM <span className="font-semibold italic">Web Developer</span>
               </motion.p>
@@ -110,9 +110,9 @@ export function HeroSection() {
                 className="hover:text-[#10b77f]"
               >
                 
-                <a href=""></a>
+                <a href="">
                   <Twitter className="w-5 h-5" />
-            
+                </a>
               </Button>
 
               <Button
@@ -120,9 +120,9 @@ export function HeroSection() {
                 size="icon"
                 className="hover:text-[#10b77f]"
               >
-                <Link href="">
+                <a href="">
                   <Dribbble className="w-5 h-5" />
-                </Link>
+                </a>
               </Button>
 
               <Button
@@ -130,9 +130,9 @@ export function HeroSection() {
                 size="icon"
                 className="hover:text-[#10b77f]"
               >
-                <Link href="">
+                <a href="">
                   <Github className="w-5 h-5" />
-                </Link>
+                </a>
               </Button>
             </motion.div>
 

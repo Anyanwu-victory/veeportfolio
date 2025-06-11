@@ -31,7 +31,6 @@ const menuItems = [
   { title: "SKILLS", icon: User, href: "#skills" },
   { title: "WORKS", icon: FolderOpen, href: "#portfolio" },
   { title: "RESUME", icon: FileText, href: "#resume" },
-  // { title: "BLOG", icon: BookOpen, href: "#blog" },
   { title: "CONTACT", icon: Mail, href: "#contact" },
 ]
 
@@ -66,7 +65,7 @@ export function AppSidebar() {
         <SidebarHeader className="border-b border-border/50 p-6">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">L</span>
+              <span className="text-primary-foreground font-bold text-sm">V</span>
             </div>
             <span className="font-bold text-lg">Victory</span>
           </div>

@@ -69,7 +69,7 @@ export function AboutSection() {
             <p className="text-sm  lg:text-lg leading-relaxed text-muted-foreground">
               Programming is both my profession and passion, which is why I
               truly enjoy working as a developer. With over 3 years of
-              experience, I've tackled a wide range of
+              experience, I&apos;ve tackled a wide range of
               challenges, from building interactive web applications to leading
               development teams. I am currently an undergrad student at Mewar
               International University Abuja majoring in Software Engineering.
