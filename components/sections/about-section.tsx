@@ -40,15 +40,18 @@ export function AboutSection() {
               <div className="relative w-80 h-80  lg:w-[30rem] lg:h-[30rem]">
                 {/* Green Background Shape */}
                 <div className="absolute inset-0 bg-[#10b77f] rounded-full
-                 scale-110 border-4 border-background lg:translate-x-8 lg:translate-y-8" />
+                 scale-110 border-4 border-background lg:translate-x-8
+                  lg:translate-y-8" />
 
                 {/* Profile Image */}
-                <div className="relative w-full h-full rounded-full top-1 overflow-hidden shadow-2xl">
+                <div className="relative w-full h-full items-center justify-center
+                rounded-full top-1 overflow-hidden">
                   <Image
                     src="/victory 2.png"
                     alt="Anyanwu Victory"
                     fill
-                    className="object-contain w-full "
+                    className="object-contain  rounded-full w-full"
+                    sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
                     priority
                   />
                 </div>
