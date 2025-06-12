@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faInstagram, faXTwitter , faMedium} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faInstagram, faMedium} from "@fortawesome/free-brands-svg-icons";
 
 
 export function HeroSection() {
