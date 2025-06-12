@@ -175,18 +175,21 @@ export function HeroSection() {
                  size="lg"
                  className="bg-[#10b77f] rounded-2xl z-10 px-[40px] py-[20px] text-black shadow-lg 
                      border-[1px] border-[#000000] hover:bg-transparent dark:border-white 
-                     dark:text-white cursor-pointer
+                     dark:text-white cursor-pointer uppercase
                      active:bg-[#10b77f]/50 focus:bg-[#10b77f]/50 transition-colors duration-300" 
               >
 
                <a
                   href="/files/victory_anyanwu_resume.pdf"
                   download="victory_anyanwu_resume.pdf"
+                  target="_blank"
                   className="flex items-center gap-2 "
                 >
                     DOWNLOAD CV
              
                 </a> 
+
+
              </Button>
 
               <Button
