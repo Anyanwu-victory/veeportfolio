@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faInstagram, faXTwitter , faMedium} from "@fortawesome/free-brands-svg-icons";
 
 
 export function HeroSection() {
@@ -111,9 +111,12 @@ export function HeroSection() {
                 className="hover:text-[#10b77f]"
               >
                 
-                <a href="https://x.com/victanyanwu306">
+                <a href="https://medium.com/@victanyanwu306"
+                target="_blank"
+                className="z-10"
+                >
               
-                  <FontAwesomeIcon icon={faXTwitter} className="w-6 h-6 hover:text-[#10b77f]" />
+                  <FontAwesomeIcon icon={faMedium} className="w-8 h-8 hover:text-[#10b77f]" />
                 </a>
               </Button>
 
@@ -122,8 +125,11 @@ export function HeroSection() {
                 size="icon"
                 className="hover:text-[#10b77f]"
               >
-                <a href="https://www.instagram.com/blac_rays">
-                  <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 hover:text-[#10b77f]" />
+                <a href="https://www.instagram.com/blac_rays"
+                target="_blank"
+                className="z-10"
+                >
+                  <FontAwesomeIcon icon={faInstagram} className="w-8 h-8 hover:text-[#10b77f]" />
                 </a>
               </Button>
 
@@ -132,21 +138,27 @@ export function HeroSection() {
                 size="icon"
                 className="hover:text-[#10b77f]"
               >
-                <a href="https://github.com/Anyanwu-victory">
+                <a
+                 href="https://github.com/Anyanwu-victory"
+                 target="_blank"
+                 className="z-10"
+                 >
                   
                   <FontAwesomeIcon icon={faGithub} 
-                  className="w-6 h-6 hover:text-[#10b77f]"/>
+                  className="w-8 h-8 hover:text-[#10b77f]"/>
                 </a>
               </Button>
 
               <Button
               variant="ghost"
               size="icon"
-              className="hover:fill-[#10b77f]"
+              className="hover:text-[#10b77f]"
               >
-              <a href="https://www.linkedin.com/in/anyanwu-victory">
+              <a href="https://www.linkedin.com/in/anyanwu-victory-6722a3279/"
+              target="_blank"
+              className="z-10">
               <FontAwesomeIcon icon={faLinkedin}
-              className="hover:text-[#10b77f] w-6 h-6"/>
+              className="hover:text-[#10b77f] w-8 h-8"/>
               </a>
               </Button>
              
@@ -163,18 +175,18 @@ export function HeroSection() {
                 <a
                   href="/victory_anyanwu_resume.pdf"
                   download="victory_anyanwu_resume.pdf"
-                  className="flex items-center gap-2"
+                  className="flex items-center gap-2 hover:bg-transparent"
                 >
                   <Button
                     size="lg"
-                    className="bg-[#10b77f] rounded-2xl px-[40px] py-[20px] text-black shadow-lg 
+                    className="bg-[#10b77f] rounded-2xl z-10 px-[40px] py-[20px] text-black shadow-lg 
                     border-[1px] border-[#000000] hover:bg-transparent dark:border-white 
                     dark:text-white cursor-pointer"
                   >
                     DOWNLOAD CV
                   </Button>
-                </a>
-    
+                </a> 
+                
               <Button
                 variant="outline"
                 size="lg"
@@ -182,7 +194,7 @@ export function HeroSection() {
               >
                 <a 
                 href="#skills"
-                target="_blank"
+                className="z-10"
                 >
                 MY SKILLS
                 </a>

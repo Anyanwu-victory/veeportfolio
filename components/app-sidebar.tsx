@@ -37,7 +37,7 @@ const socialLinks = [
   { icon: faXTwitter, href: "https://x.com/victanyanwu306", label: "Twitter" },
   { icon: faInstagram, href: "https://www.instagram.com/blac_rays", label: "Instagram" },
   { icon: faGithub, href: "https://github.com/Anyanwu-victory", label: "Github" },
-  { icon: faLinkedin, href: "https://www.linkedin.com/in/anyanwu-victory", label: "LinkedIn" },
+  { icon: faLinkedin, href: "https://www.linkedin.com/in/anyanwu-victory-6722a3279/", label: "LinkedIn" },
 
 ]
 
@@ -99,7 +99,7 @@ export function AppSidebar() {
                 className="w-8 h-8 hover:bg-primary/10 hover:text-primary transition-colors"
                 asChild
               >
-                <a href={social.href} aria-label={social.label}>
+                <a href={social.href} aria-label={social.label} className="z-10 hover:bg-transparent hover:text-[#10b77f]" target="_blank" >
                   <FontAwesomeIcon icon={social.icon} className="w-4 h-4" />
                 </a>
               </Button>
