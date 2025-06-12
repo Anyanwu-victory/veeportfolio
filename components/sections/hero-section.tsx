@@ -171,22 +171,23 @@ export function HeroSection() {
               transition={{ delay: 1.2 }}
               className="flex flex-co sm:flex-row gap-4"
             >
-              
-                <a
-                  href="/victory_anyanwu_resume.pdf"
+              <Button
+                 size="lg"
+                 className="bg-[#10b77f] rounded-2xl z-10 px-[40px] py-[20px] text-black shadow-lg 
+                     border-[1px] border-[#000000] hover:bg-transparent dark:border-white 
+                     dark:text-white cursor-pointer" 
+              >
+
+               <a
+                  href="/files/victory_anyanwu_resume.pdf"
                   download="victory_anyanwu_resume.pdf"
-                  className="flex items-center gap-2 hover:bg-transparent"
+                  className="flex items-center gap-2 "
                 >
-                  <Button
-                    size="lg"
-                    className="bg-[#10b77f] rounded-2xl z-10 px-[40px] py-[20px] text-black shadow-lg 
-                    border-[1px] border-[#000000] hover:bg-transparent dark:border-white 
-                    dark:text-white cursor-pointer"
-                  >
                     DOWNLOAD CV
-                  </Button>
+             
                 </a> 
-                
+             </Button>
+
               <Button
                 variant="outline"
                 size="lg"
