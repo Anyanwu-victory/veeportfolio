@@ -13,8 +13,6 @@ import { Mail, Phone, MapPin, Send } from "lucide-react"
 import { useForm, ValidationError } from '@formspree/react';
 
 
-
-
 const contactInfo = [
   {
     icon: Mail,
@@ -32,13 +30,13 @@ const contactInfo = [
     icon: MapPin,
     title: "Address",
     value: "Abuja, Nigeria",
-    href: "#",
+    href: "https://maps.app.goo.gl/5wwBxxQe9xJY1dhz6",
   },
 ]
 
 export function ContactSection() {
   const { toast } = useToast()
-  const [formState, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM || "mldnjplk")
+  const [formState, handleSubmit, reset] = useForm(process.env.NEXT_PUBLIC_FORM || "mldnjplk")
 
   useEffect(() => {
     if (formState.succeeded) {
@@ -46,8 +44,11 @@ export function ContactSection() {
         title: "Message sent!",
         description: "Thank you for your message. I'll get back to you soon.",
       });
+
+      // Clear form state for new input
+      reset();
     }
-  }, [formState.succeeded]);
+  }, [formState.succeeded, reset]);
 
   return (
     <section id="contact" className="section-padding">

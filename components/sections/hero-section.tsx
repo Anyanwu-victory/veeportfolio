@@ -4,8 +4,9 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import {Twitter, Dribbble, Github } from "lucide-react";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 export function HeroSection() {
@@ -110,8 +111,9 @@ export function HeroSection() {
                 className="hover:text-[#10b77f]"
               >
                 
-                <a href="">
-                  <Twitter className="w-5 h-5" />
+                <a href="https://x.com/victanyanwu306">
+              
+                  <FontAwesomeIcon icon={faXTwitter} className="w-6 h-6 hover:text-[#10b77f]" />
                 </a>
               </Button>
 
@@ -120,8 +122,8 @@ export function HeroSection() {
                 size="icon"
                 className="hover:text-[#10b77f]"
               >
-                <a href="">
-                  <Dribbble className="w-5 h-5" />
+                <a href="https://www.instagram.com/blac_rays">
+                  <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 hover:text-[#10b77f]" />
                 </a>
               </Button>
 
@@ -130,11 +132,25 @@ export function HeroSection() {
                 size="icon"
                 className="hover:text-[#10b77f]"
               >
-                <a href="">
-                  <Github className="w-5 h-5" />
+                <a href="https://github.com/Anyanwu-victory">
+                  
+                  <FontAwesomeIcon icon={faGithub} 
+                  className="w-6 h-6 hover:text-[#10b77f]"/>
                 </a>
               </Button>
-            </motion.div>
+
+              <Button
+              variant="ghost"
+              size="icon"
+              className="hover:fill-[#10b77f]"
+              >
+              <a href="https://www.linkedin.com/in/anyanwu-victory">
+              <FontAwesomeIcon icon={faLinkedin}
+              className="hover:text-[#10b77f] w-6 h-6"/>
+              </a>
+              </Button>
+             
+             </motion.div>
 
             {/* CTA Buttons */}
             <motion.div

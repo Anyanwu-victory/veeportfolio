@@ -8,9 +8,6 @@ import {
   FolderOpen,
   FileText,
   Mail,
-  Twitter,
-  Dribbble,
-  Github,
 } from "lucide-react"
 import {
   Sidebar,
@@ -24,6 +21,8 @@ import {
 } from "@/components/ui/sidebar"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const menuItems = [
   { title: "HOME", icon: Home, href: "#home" },
@@ -35,9 +34,11 @@ const menuItems = [
 ]
 
 const socialLinks = [
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Dribbble, href: "#", label: "Dribbble" },
-  { icon: Github, href: "#", label: "Github" },
+  { icon: faXTwitter, href: "https://x.com/victanyanwu306", label: "Twitter" },
+  { icon: faInstagram, href: "https://www.instagram.com/blac_rays", label: "Instagram" },
+  { icon: faGithub, href: "https://github.com/Anyanwu-victory", label: "Github" },
+  { icon: faLinkedin, href: "https://www.linkedin.com/in/anyanwu-victory", label: "LinkedIn" },
+
 ]
 
 export function AppSidebar() {
@@ -99,7 +100,7 @@ export function AppSidebar() {
                 asChild
               >
                 <a href={social.href} aria-label={social.label}>
-                  <social.icon className="w-4 h-4" />
+                  <FontAwesomeIcon icon={social.icon} className="w-4 h-4" />
                 </a>
               </Button>
             ))}
