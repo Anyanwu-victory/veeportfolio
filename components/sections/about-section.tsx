@@ -45,10 +45,10 @@ export function AboutSection() {
                 {/* Profile Image */}
                 <div className="relative w-full h-full rounded-full top-1 overflow-hidden shadow-2xl">
                   <Image
-                    src="/profile-pic.png"
+                    src="/victory 2.png"
                     alt="Anyanwu Victory"
                     fill
-                    className="object-contain"
+                    className="object-contain w-full "
                     priority
                   />
                 </div>
