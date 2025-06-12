@@ -175,7 +175,8 @@ export function HeroSection() {
                  size="lg"
                  className="bg-[#10b77f] rounded-2xl z-10 px-[40px] py-[20px] text-black shadow-lg 
                      border-[1px] border-[#000000] hover:bg-transparent dark:border-white 
-                     dark:text-white cursor-pointer" 
+                     dark:text-white cursor-pointer
+                     active:bg-[#10b77f]/50 focus:bg-[#10b77f]/50 transition-colors duration-300" 
               >
 
                <a
