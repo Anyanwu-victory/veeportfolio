@@ -11,24 +11,6 @@ import Image from "next/image"
 const projects = [
   {
     id: 1,
-    title: "Agent Dashboard - content management system",
-    image: "/Agent-dashboard.png",
-    description: "A modern Agent Management Website for Corporate Affairs Commission(CAC).",
-    technologies: ["React", "Node.js", "HTML", "TailwindCSS"],
-    liveUrl: "https://github.com/Anyanwu-victory/agent-dashboard",
-    githubUrl: "https://github.com/Anyanwu-victory/agent-dashboard",
-  },
-  {
-    id: 2,
-    title: "Sunny Blog.dev",
-    image: "/SunnyBlog.png",
-    description: "During the final four months at NCC, I dedicated my time to honing my web development skills through building my Blog.The Blog enables users to create blog content, read blog content.",
-    technologies: ["React ", "Sanity", "JavaScript", "TailwindCSS"],
-    liveUrl: "https://github.com/Anyanwu-victory/sunny-blog",
-    githubUrl: "https://github.com/Anyanwu-victory/sunny-blog",
-  },
-  {
-    id: 3,
     title: "Space Tourism Exploration Website",
     image: "/spaceTourism.png",
     description: "A Website for frontend mentor challenge project to master my frontend skills",
@@ -37,7 +19,7 @@ const projects = [
     githubUrl: "https://github.com/Anyanwu-victory/space-tourism-website",
   },
   {
-    id: 4,
+    id: 2,
     title: "AutoConsult",
     image: "/Autoconsult.png",
     description: "Collaorated with a team of developers to develop a website for AutoConsult car rentals",
@@ -46,7 +28,7 @@ const projects = [
     githubUrl: "https://github.com/Anyanwu-victory?tab=repositories",
   },
   {
-    id: 5,
+    id: 3,
     title: "Sunnyside Website",
     image: "/active-states.jpg",
     description: "Creative frontend mentor challenge project to master my frontend skills",
@@ -55,7 +37,7 @@ const projects = [
     githubUrl: "https://github.com/Anyanwu-victory/Sunnyside-Webpage",
   },
   {
-    id: 6,
+    id: 4,
     title: "SIWESTrack",
     image: "/homepage.png",
     description: "A website for SIWES students to track their industrial training progress and submit reports.",
@@ -63,6 +45,25 @@ const projects = [
     liveUrl: "https://siwestrack.vercel.app/",
     githubUrl: "https://github.com/Anyanwu-victory/Modern-Elogbook",
   },
+  {
+    id: 5,
+    title: "Agent Dashboard - content management system",
+    image: "/Agent-dashboard.png",
+    description: "A modern Agent Management Website for Corporate Affairs Commission(CAC).",
+    technologies: ["React", "Node.js", "HTML", "TailwindCSS"],
+    liveUrl: "https://github.com/Anyanwu-victory/agent-dashboard",
+    githubUrl: "https://github.com/Anyanwu-victory/agent-dashboard",
+  },
+  {
+    id: 6,
+    title: "Sunny Blog.dev",
+    image: "/SunnyBlog.png",
+    description: "During the final four months at NCC, I dedicated my time to honing my web development skills through building my Blog.The Blog enables users to create blog content, read blog content.",
+    technologies: ["React ", "Sanity", "JavaScript", "TailwindCSS"],
+    liveUrl: "https://github.com/Anyanwu-victory/sunny-blog",
+    githubUrl: "https://github.com/Anyanwu-victory/sunny-blog",
+  },
+  
 ]
 
 export function PortfolioSection() {
