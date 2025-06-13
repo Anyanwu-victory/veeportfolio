@@ -74,7 +74,7 @@ export function AboutSection() {
               truly enjoy working as a developer. With over 3 years of
               experience, I&apos;ve tackled a wide range of
               challenges, from building interactive web applications to leading
-              development teams. I am currently an undergrad student at Mewar
+              development teams. I am currently an undergraduate student at Mewar
               International University Abuja majoring in Software Engineering.
               Previously, I worked at Nigerian Communications Commission and
               Appbrew both as a frontend software engineer. Outside work, I

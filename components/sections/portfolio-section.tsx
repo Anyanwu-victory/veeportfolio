@@ -15,7 +15,7 @@ const projects = [
     image: "/Agent-dashboard.png",
     description: "A modern Agent Management Website for Corporate Affairs Commission(CAC).",
     technologies: ["React", "Node.js", "HTML", "TailwindCSS"],
-    liveUrl: "#",
+    liveUrl: "https://github.com/Anyanwu-victory/agent-dashboard",
     githubUrl: "https://github.com/Anyanwu-victory/agent-dashboard",
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     image: "/SunnyBlog.png",
     description: "During the final four months at NCC, I dedicated my time to honing my web development skills through building my Blog.The Blog enables users to create blog content, read blog content.",
     technologies: ["React ", "Sanity", "JavaScript", "TailwindCSS"],
-    liveUrl: "#",
+    liveUrl: "https://github.com/Anyanwu-victory/sunny-blog",
     githubUrl: "https://github.com/Anyanwu-victory/sunny-blog",
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     image: "/active-states.jpg",
     description: "Creative frontend mentor challenge project to master my frontend skills",
     technologies: ["TailwindCSS", "React", "JavaScript"],
-    liveUrl: "sunnyside-fawn-one.vercel.app",
+    liveUrl: "https://sunnyside-fawn-one.vercel.app/",
     githubUrl: "https://github.com/Anyanwu-victory/Sunnyside-Webpage",
   },
   {
@@ -60,7 +60,7 @@ const projects = [
     image: "/homepage.png",
     description: "A website for SIWES students to track their industrial training progress and submit reports.",
     technologies: ["Typescript", "Sanity CMS", "TailwindCSS", "Next.js"],
-    liveUrl: "siwestrack.vercel.app",
+    liveUrl: "https://siwestrack.vercel.app/",
     githubUrl: "https://github.com/Anyanwu-victory/Modern-Elogbook",
   },
 ]

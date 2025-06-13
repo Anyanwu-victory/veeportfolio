@@ -94,8 +94,8 @@ export function HeroSection() {
               className="text-muted-foreground text-lg font-hachi-maru-pop leading-relaxed max-w-md"
             >
               From Abuja, Nigeria. I have rich experience in web development,
-              also I am good at writing. I love to talk with you about our
-              unique.
+              also I am skilled at writing. I would love to talk with you about your
+              unique ideas.
             </motion.p>
 
             {/* Social Links */}
