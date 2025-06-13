@@ -33,7 +33,7 @@ const projects = [
     image: "/spaceTourism.png",
     description: "A Website for frontend mentor challenge project to master my frontend skills",
     technologies: ["React", "Javascript", "TailwindCSS"],
-    liveUrl: "#",
+    liveUrl: "https://glistening-licorice-316491.netlify.app/",
     githubUrl: "https://github.com/Anyanwu-victory/space-tourism-website",
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     image: "/Autoconsult.png",
     description: "Collaorated with a team of developers to develop a website for AutoConsult car rentals",
     technologies: ["Typescript", "Next.js", "Tailwind CSS"],
-    liveUrl: "#",
+    liveUrl: "https://dev-autoconsultng.netlify.app/",
     githubUrl: "https://github.com/Anyanwu-victory?tab=repositories",
   },
   {
