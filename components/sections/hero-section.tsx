@@ -180,7 +180,7 @@ export function HeroSection() {
               >
 
                <a
-                  href="/files/victory_anyanwu_resume.pdf"
+                  href="/files/Victory_Resume.pdf"
                   download="victory_anyanwu_resume.pdf"
                   target="_blank"
                   className="flex items-center gap-2 "
