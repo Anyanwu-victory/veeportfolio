@@ -47,7 +47,7 @@ export function AboutSection() {
                 <div className="relative w-full h-full items-center justify-center
                 rounded-ful top-5 overflow-hidden">
                   <Image
-                    src="/vee_1.jpg"
+                    src="/vee_1.png"
                     alt="Anyanwu Victory"
                     fill
                     className="object-cover object-center rounded-full w-full"
