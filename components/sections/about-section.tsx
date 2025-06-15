@@ -39,18 +39,18 @@ export function AboutSection() {
               {/* Main Profile Container */}
               <div className="relative w-80 h-80  lg:w-[30rem] lg:h-[30rem]">
                 {/* Green Background Shape */}
-                <div className="absolute inset-0 bg-[#10b77f] rounded-full
+                <div className="absolute inset-0 bg-[#fff] rounded-full
                  scale-110 border-4 border-background lg:translate-x-8
                   lg:translate-y-8" />
 
                 {/* Profile Image */}
                 <div className="relative w-full h-full items-center justify-center
-                rounded-full top-1 overflow-hidden">
+                rounded-ful top-5 overflow-hidden">
                   <Image
-                    src="/victory 2.png"
+                    src="/vee_1.jpg"
                     alt="Anyanwu Victory"
                     fill
-                    className="object-contain  rounded-full w-full"
+                    className="object-cover object-center rounded-full w-full"
                     sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
                     priority
                   />
@@ -66,7 +66,7 @@ export function AboutSection() {
             transition={{ duration: 1 }}
             className="w-full lg:w-1/2 text-center lg:text-left"
           >
-            <h2 className=" text-2xl lg:text-3xl font-medium text-primary mb-4">
+            <h2 className=" text-2xl lg:text-3xl text-[#10b77f] font-medium  mb-4">
               Software Engineer, Programmer and day dreamer
             </h2>
             <p className="text-sm  lg:text-lg leading-relaxed text-muted-foreground">

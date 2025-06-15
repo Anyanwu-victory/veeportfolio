@@ -63,7 +63,6 @@ const projects = [
     liveUrl: "https://github.com/Anyanwu-victory/sunny-blog",
     githubUrl: "https://github.com/Anyanwu-victory/sunny-blog",
   },
-  
 ]
 
 export function PortfolioSection() {
