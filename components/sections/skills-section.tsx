@@ -29,7 +29,8 @@ const badges = [
   { name: "Netlify" },
   { name: "Bootstrap" },
   { name: "Node.js" },
-
+  { name: "SASS" },
+  { name: "RESTful API" },
 ];
 export function SkillsSection() {
   return (

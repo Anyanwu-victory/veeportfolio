@@ -31,32 +31,29 @@ export function AboutSection() {
             items-center py-12 lg:justify-start w-full 
             lg:w-1/2 lg:py-20 px-4 md:px-8 lg:px-20"
           >
-            <div className="relative">
-              {/* Background Circle */}
-              <div className="absolute inset-0 bg-[#10b77f]/20 rounded-full 
-              blur-3xl scale-110" />
+<div className="relative">
+  {/* Background Circle */}
+  <div className="absolute inset-0 bg-[#10b77f]/20 rounded-full blur-3xl scale-110" />
 
-              {/* Main Profile Container */}
-              <div className="relative w-80 h-80  lg:w-[30rem] lg:h-[30rem]">
-                {/* Green Background Shape */}
-                <div className="absolute inset-0 bg-[#fff] rounded-full
-                 scale-110 border-4 border-background lg:translate-x-8
-                  lg:translate-y-8" />
+  {/* Main Profile Container */}
+  <div className="relative w-80 h-80 lg:w-[30rem] lg:h-[30rem]">
+    {/* Green Background Shape */}
+    <div className="absolute inset-0 rounded-full scale-110 border-4 border-background lg:translate-x-8 lg:translate-y-8" />
 
-                {/* Profile Image */}
-                <div className="relative w-full h-full items-center justify-center
-                rounded-ful top-5 overflow-hidden">
-                  <Image
-                    src="/vee_1.png"
-                    alt="Anyanwu Victory"
-                    fill
-                    className="object-cover object-center rounded-full w-full"
-                    sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
-                    priority
-                  />
-                </div>
-              </div>
-            </div>
+    {/* Profile Image */}
+    <div className="relative w-full h-full rounded-full overflow-hidden flex items-center justify-center">
+      <Image
+        src="/me-preview.png"
+        alt="Anyanwu Victory"
+        fill
+        className="object-cover rounded-full object-top"
+        sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw"
+        priority
+      />
+    </div>
+  </div>
+</div>
+
           </motion.div>
 
           {/* Right: About Me Content */}
