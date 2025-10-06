@@ -18,7 +18,7 @@ const skills = [
 ];
 
 const badges = [
-  { name: "Docker" },
+  { name: "Vercel" },
   { name: "HTML" },
   { name: "CSS" },
   { name: "MongoDB" },
@@ -31,6 +31,8 @@ const badges = [
   { name: "Node.js" },
   { name: "SASS" },
   { name: "RESTful API" },
+  {name: "Three.js"},
+  {name: "Github"}
 ];
 export function SkillsSection() {
   return (
