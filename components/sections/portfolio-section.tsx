@@ -40,7 +40,7 @@ const projects = [
     id: 4,
     title: "SIWESTrack",
     image: "/homepage.png",
-    description: "A website for SIWES students to track their industrial training progress and submit reports.",
+    description: "A website for SIWES students to track their industrial training progress and submit reports. Lecturers, IT supervisors, Institutue Supervisor and ItF Personnels have dashboards where they can audit logs submitted by each students.",
     technologies: ["Typescript", "Sanity CMS", "TailwindCSS", "Next.js"],
     liveUrl: "https://siwestrack.vercel.app/",
     githubUrl: "https://github.com/Anyanwu-victory/Modern-Elogbook",
