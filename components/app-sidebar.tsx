@@ -37,7 +37,7 @@ const socialLinks = [
   { icon: faXTwitter, href: "https://x.com/victanyanwu306", label: "Twitter" },
   { icon: faInstagram, href: "https://www.instagram.com/blac_rays", label: "Instagram" },
   { icon: faGithub, href: "https://github.com/Anyanwu-victory", label: "Github" },
-  { icon: faLinkedin, href: "https://www.linkedin.com/in/anyanwu-victory-6722a3279/", label: "LinkedIn" },
+  { icon: faLinkedin, href: "https://www.linkedin.com/in/victory-anyanwu-6722a3279/", label: "LinkedIn" },
 
 ]
 
