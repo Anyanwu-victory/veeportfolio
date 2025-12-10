@@ -8,12 +8,12 @@ const skills = [
   { name: "Typescript", level: 85 },
   { name: "React, Next.js", level: 85 },
   { name: "TailwindCSS", level: 90 },
+   { name: "Vue.js", level: 80 },
   { name: "Node.js", level: 60 },
   { name: "Python", level: 40 },
   { name: "Prettier&ESLint", level: 85 },
   { name: "Sanity CMS", level: 90 },
   { name: "Git", level: 80 },
-  { name: "SQL", level: 80 },
   { name: "Docker", level: 50 },
 ];
 
@@ -28,7 +28,7 @@ const badges = [
   { name: "Whogohost" },
   { name: "Netlify" },
   { name: "Bootstrap" },
-  { name: "Node.js" },
+  { name: "SQl" },
   { name: "SASS" },
   { name: "RESTful API" },
   {name: "Three.js"},
