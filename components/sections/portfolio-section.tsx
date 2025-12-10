@@ -58,7 +58,7 @@ const projects = [
     id: 6,
     title: "TryCare.com",
     image: "/TryCare.png",
-    description: "A healthcare services website that provides information about a specific health illness(malaria), it was built to help users understand more about the illness, its symptoms, prevention methods, and available treatments before meeting a doctor.Built with the Eleve community",
+    description: "A healthcare services website that provides information about a specific health illness(malaria), it was built to help users understand more about the illness, its symptoms, diagnosis, and available treatments before meeting a doctor.Built with the Eleve community",
     technologies: ["Vue.js", "JavaScript", "TailwindCSS"],
     liveUrl: "https://trycare.theelevecommunity.com/",
     githubUrl: "https://github.com/Anyanwu-victory/",
