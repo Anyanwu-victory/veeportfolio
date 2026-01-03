@@ -10,11 +10,11 @@ const skills = [
   { name: "TailwindCSS", level: 90 },
    { name: "Vue.js", level: 80 },
   { name: "Node.js", level: 60 },
-  { name: "Python", level: 40 },
+  { name: "Framer motion", level: 50 },
   { name: "Prettier&ESLint", level: 85 },
   { name: "Sanity CMS", level: 90 },
   { name: "Git", level: 80 },
-  { name: "Docker", level: 50 },
+  { name: "GSAP", level: 30 },
 ];
 
 const badges = [
@@ -31,7 +31,7 @@ const badges = [
   { name: "SQl" },
   { name: "SASS" },
   { name: "RESTful API" },
-  {name: "Three.js"},
+  {name: "Framer Motion"},
   {name: "Github"}
 ];
 export function SkillsSection() {
