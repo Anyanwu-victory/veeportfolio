@@ -77,7 +77,7 @@ const projects = [
     title: "Bookit",
     image: "/Bookit homepage.png",
     description: "A comprehensive booking platform that allows users to book hotel rooms, manage their reservations ,requests seamlessly and hotel admin management can manage rooms, guest and flag suspicious bookings.",
-    technologies: ["Vue.js", "HTML", "TailwindCSS"],
+    technologies: ["Vue.js", "JavaScript", "TailwindCSS"],
     liveUrl: "https://bookit-frontend-production.up.railway.app/",
     githubUrl: "https://github.com/Anyanwu-victory/",
   },
