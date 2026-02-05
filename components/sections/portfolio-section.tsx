@@ -54,17 +54,17 @@ const projects = [
     liveUrl: "https://v0-cybersecurity-website-design-lyart.vercel.app/",
     githubUrl: "https://github.com/Anyanwu-victory/v0-cybersecurity-website-design"
   },
+  // {
+  //   id: 6,
+  //   title: "TryCare.com",
+  //   image: "/TryCare.png",
+  //   description: "A healthcare services website that provides information about a specific health illness(malaria), it was built to help users understand more about the illness, its symptoms, diagnosis, and available treatments before meeting a doctor.Built with the Eleve community",
+  //   technologies: ["Vue.js", "JavaScript", "TailwindCSS"],
+  //   liveUrl: "https://trycare.theelevecommunity.com/",
+  //   githubUrl: "https://github.com/Anyanwu-victory/",
+  // },
   {
     id: 6,
-    title: "TryCare.com",
-    image: "/TryCare.png",
-    description: "A healthcare services website that provides information about a specific health illness(malaria), it was built to help users understand more about the illness, its symptoms, diagnosis, and available treatments before meeting a doctor.Built with the Eleve community",
-    technologies: ["Vue.js", "JavaScript", "TailwindCSS"],
-    liveUrl: "https://trycare.theelevecommunity.com/",
-    githubUrl: "https://github.com/Anyanwu-victory/",
-  },
-  {
-    id: 7,
     title: "Weather APP",
     image: "/Climenta weather app.png",
     description: "A weather application that provides real-time weather information and forecasts for various locations. Users can search for cities and view current weather conditions, including temperature, humidity, wind speed, and weather descriptions.",
@@ -72,15 +72,15 @@ const projects = [
     liveUrl: "https://climenta.netlify.app/",
     githubUrl: "https://github.com/Anyanwu-victory/weather_app_main",
   },
-  {
-    id: 8,
-    title: "Bookit",
-    image: "/Bookit homepage.png",
-    description: "A comprehensive booking platform that allows users to book hotel rooms, manage their reservations ,requests seamlessly and hotel admin management can manage rooms, guest and flag suspicious bookings.",
-    technologies: ["Vue.js", "JavaScript", "TailwindCSS"],
-    liveUrl: "https://bookit-frontend-production.up.railway.app/",
-    githubUrl: "https://github.com/Anyanwu-victory/",
-  },
+  // {
+  //   id: 8,
+  //   title: "Bookit",
+  //   image: "/Bookit homepage.png",
+  //   description: "A comprehensive booking platform that allows users to book hotel rooms, manage their reservations ,requests seamlessly and hotel admin management can manage rooms, guest and flag suspicious bookings.",
+  //   technologies: ["Vue.js", "JavaScript", "TailwindCSS"],
+  //   liveUrl: "https://bookit-frontend-production.up.railway.app/",
+  //   githubUrl: "https://github.com/Anyanwu-victory/",
+  // },
 ]
 
 export function PortfolioSection() {
